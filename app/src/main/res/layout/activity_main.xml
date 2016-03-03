@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/aaa"
+
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/Top"
+    android:textSize="45sp"
+    android:gravity="center"
+    android:textColor="@android:color/black"
+
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:text="Penguen!"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/but1"
+            android:background="@drawable/button3"
+            android:textSize="30sp"
+
+
+            />
+        <Button android:text="İnsan!"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:id="@+id/but2"
+            android:layout_toRightOf="@id/but1"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button3"
+            android:layout_marginLeft="15dp"
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button android:text="Everest!"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/but3"
+            android:layout_weight="1"
+            android:background="@drawable/button3"
+            android:textSize="30sp"
+            />
+        <Button android:text="Karınca!"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/but3"
+            android:layout_below="@id/but2"
+            android:background="@drawable/button3"
+            android:layout_marginLeft="15dp"
+            android:textSize="30sp"
+            android:id="@+id/but4"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button android:text="Ay!"
+            android:layout_width="0dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/button3"
+            android:textSize="30sp"
+            android:id="@+id/but5"/>
+        <Button android:text="Uyum!"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/but5"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button3"
+            android:textSize="30sp"
+            android:id="@+id/but6"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
